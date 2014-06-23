@@ -1,0 +1,11 @@
+vendors required:
+Cisco, Juniper (also preferably Extreme)
+
+Information it must take:
+List of IP addresses and/or device name(means must be able to resolve the DNS). username and password.
+
+Information required:
+OS version, Interface in error/shutdown/disabled state. error details on relevant interface, other system errors and significant system events in past 2 days. The information must be consolidated in proper format to .CSV file.
+
+Additional requirements:
+Exception handling and any error encountered during the process like DNS error in device name resolution, unable to get the required information because of privilege errors, unable to reach the device, unable to save the .csv file, etc. There should be a feature for automatic email along with CC for the generated .csv file. 
