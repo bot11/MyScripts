@@ -1,0 +1,5 @@
+#This is a sample configuration file
+#  Syntax is as below
+ # host;username;password
+
+localhost;root;Abc.1234
